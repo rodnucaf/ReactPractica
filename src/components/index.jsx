@@ -1,0 +1,6 @@
+export * from "./Navbar/Navbar.jsx"
+export * from "./Hero/Hero.jsx"
+export * from "./Pricing/Pricing.jsx"
+export * from "./Features/Features.jsx"
+export * from "./Footer/Footer.jsx"
+export * from "./Testimonials/Testimonials.jsx"
