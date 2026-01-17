@@ -49,7 +49,7 @@ export default function Hero() {
             href="#pricing"
             className="inline-flex items-center justify-center px-6 py-3 border border-gray-600 hover:border-blue-500 hover:text-blue-400 rounded-xl font-medium transition-all duration-300"
           >
-            Ver precios
+            Ir más abajo
           </a>
         </div>
       </div>
