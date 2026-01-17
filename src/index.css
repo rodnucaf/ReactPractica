@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @layer utilities {
-  .animate-in{
+  .animate-in {
     animation-fill-mode: both;
   }
 
@@ -12,16 +12,23 @@
   .duration-300 {
     animation-duration: 300ms;
   }
+
+  .duration-700 {
+    animation-duration: 700ms;
+  }
+
+  .ease-out {
+    animation-timing-function: ease-out;
+  }
 }
 
 @keyframes slideInFromTop {
   from {
     opacity: 0;
-    transform: translateY(-1rem)
+    transform: translateY(-1rem);
   }
-
   to {
     opacity: 1;
-    transofrm: translateY(0);
+    transform: translateY(0);
   }
 }

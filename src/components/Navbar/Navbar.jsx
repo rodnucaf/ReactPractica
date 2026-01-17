@@ -15,16 +15,16 @@ export default function Navbar() {
                             </div>
                             <span className="text-lg sm:text-xl md:text-2x1 font-medium">
                                 <span className="text-white">Pagi</span>
-                                <span className="text-blue-400">Nita</span>
+                                <span className="text-purple-600 drop-shadow-[0_0_10px_rgba(59,130,246,0.6)]">Nita</span>
                             </span>
                         </div>
                     </div>
 
                 {/*Nav Links*/}
                 <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-                    <a href="#features" className="text-gray-300 hover:text-white text-sm lg:text">Features</a>
-                    <a href="#pricing" className="text-gray-300 hover:text-white text-sm lg:text">Pricing</a>
-                    <a href="#testimonials" className="text-gray-300 hover:text-white text-sm lg:text">Testimonials</a>
+                    <a href="#features" className="text-gray-300 hover:text-white text-sm lg:text">Gatitos</a>
+                    <a href="#ConnectSection" className="text-gray-300 hover:text-white text-sm lg:text">Mis redes</a>
+                    <a href="#videito" className="text-gray-300 hover:text-white text-sm lg:text">Cancioncita</a>
                 </div>
                 
                 <button

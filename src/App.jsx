@@ -1,13 +1,13 @@
-import {Features, Footer, Hero, Navbar, Pricing, Testimonials} from "./components"
+import {Gatitos, Footer, Hero, Navbar, ConnectSection, Video} from "./components"
 
 
 function App() {
   return <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
     <Navbar/>
     <Hero/>
-    <Features/>
-    <Pricing/>
-    <Testimonials/>
+    <Gatitos/>
+    <ConnectSection/>
+    <Video/>
     <Footer/>
   </div>;
 }
